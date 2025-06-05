@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sky_hopper/services/audio_service.dart';
+
+import 'package:sky_hopper_fun_widget/services/audio_service.dart';
 import '../controllers/game_controller.dart';
 import 'starfield_background.dart';
 import 'astronaut_widget.dart';

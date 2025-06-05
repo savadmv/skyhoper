@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:sky_hopper/services/audio_service.dart';
+import 'package:sky_hopper_fun_widget/services/audio_service.dart';
 import '../models/astronaut.dart';
 import '../models/obstacle.dart';
 import '../core/collision.dart';

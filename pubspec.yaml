@@ -1,35 +1,39 @@
-name: sky_hopper
-description: "A new Flutter project."
-publish_to: 'none'
-version: 0.1.0
+name: sky_hopper_fun_widget
+description: A fun, lightweight Sky Hopper game widget to entertain users during loading times or when errors occur in your Flutter app. Great for a playful placeholder!
+version: 0.0.1 # Start with an initial version
+homepage: https://github.com/savadmv/skyhoper # Link to your GitHub repo later
+repository: https://github.com/savadmv/skyhoper # Same as homepage or specific repo link
+issue_tracker: https://github.com/savadmv/skyhoper/issues # Optional
 
 environment:
-  sdk: ^3.7.2
+  sdk: '>=3.0.0 <4.0.0' # Update to a reasonable modern SDK range
+  flutter: ">=1.17.0" # Or your minimum Flutter version
 
 dependencies:
   flutter:
     sdk: flutter
-  provider: ^6.1.0
-  audioplayers: ^5.2.1
+  provider: ^6.1.0 #
+  audioplayers: ^5.2.1 #
+  # Keep other dependencies your game uses
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
- 
+  flutter_lints: ^5.0.0 #
 
 flutter:
-  uses-material-design: true
+  uses-material-design: true #
 
   assets:
-    - assets/astronaut.png
-    - assets/astronaut.png
-    - assets/alien.png
-    - assets/asteroid.png
-    - assets/meteor.png
-    - assets/satellite.png
-    - assets/audio/background.wav
-    - assets/audio/background02.flac
-    - assets/audio/game_over.wav
-    - assets/audio/jump.wav
-    - assets/audio/tick.wav
+    # Ensure all paths are correct and relative to the package root
+    - assets/astronaut.png #
+    - assets/alien.png #
+    - assets/asteroid.png #
+    - assets/meteor.png #
+    - assets/satellite.png #
+    - assets/audio/background.wav #
+    - assets/audio/background02.flac #
+    - assets/audio/game_over.wav #
+    - assets/audio/jump.wav #
+    - assets/audio/tick.wav #
+    # Note: pubspec.yaml has 'assets/astronaut.png' listed twice. Remove one.

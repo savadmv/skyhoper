@@ -8,6 +8,6 @@ class AstronautWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Positioned(left: position.dx, top: position.dy, child: SizedBox(width: size.width, height: size.height, child: Image.asset('assets/astronaut.png', fit: BoxFit.contain)));
+    return Positioned(left: position.dx, top: position.dy, child: SizedBox(width: size.width, height: size.height, child: Image.asset('assets/astronaut.png',package: 'sky_hopper_fun_widget', fit: BoxFit.contain)));
   }
 }

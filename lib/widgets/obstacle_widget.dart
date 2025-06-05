@@ -9,7 +9,7 @@ class ObstacleWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Positioned(left: position.dx, top: position.dy, child: SizedBox(width: size.width, height: size.height, child: Image.asset(assetPath, fit: BoxFit.contain)));
+    return Positioned(left: position.dx, top: position.dy, child: SizedBox(width: size.width, height: size.height, child: Image.asset(assetPath,package: 'sky_hopper_fun_widget', fit: BoxFit.contain)));
   }
 }
 
